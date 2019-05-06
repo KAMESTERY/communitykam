@@ -3,7 +3,8 @@ theme = "dot"
 
 
 [params]
-primaryColor = "#02007e"
+#primaryColor = "#02007e"
+primaryColor = "#588c49"
 secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
@@ -19,7 +20,7 @@ whiteColor = "#ffffff"
   title = "Doc List"
   dateFormat = "2 January 2006"
   home = "Home"
-  logo = "Dot"
+  logo = "CIMUSA"
   copyright = "The Hugo Documents are copyright © gethugothemes 2018."
 
     # navigation
@@ -70,9 +71,10 @@ whiteColor = "#ffffff"
 
     # banner
     [Languages.en.params.banner]
-      title = "Support Center & Knowledge base"
+      title = "Ivoirian Community of Minnesota (CIMUSA)"
       description = "Find advice and answers from our support team fast or get in touch"
-      image = "images/banner.jpg"
+      #image = "images/banner.jpg"
+      image = "images/Flag_of_Côte_d'Ivoire.svg"
       placeholder = "Have a question? Just ask here or enter terms"
 
     # Topics
@@ -168,9 +170,10 @@ whiteColor = "#ffffff"
 
     # banner
     [Languages.fr.params.banner]
-      title = "Comment pouvons nous aider?"
+      title = "Communaute Ivoirienne du Minnesota (CIMUSA)"
       description = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
-      image = "images/banner.jpg"
+      #image = "images/banner.jpg"
+      image = "images/Flag_of_Côte_d'Ivoire.svg"
       placeholder = "Have a question? Just ask here or enter terms"
 
     # pages
