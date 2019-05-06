@@ -17,11 +17,11 @@ whiteColor = "#ffffff"
   languageName = "En"
   weight = 1
   languageCode = "en-us"
-  title = "Doc List"
+  title = "Welcome to the Ivoirian Community of Minnesota (CIMUSA)"
   dateFormat = "2 January 2006"
   home = "Home"
   logo = "CIMUSA"
-  copyright = "The Hugo Documents are copyright © gethugothemes 2018."
+  copyright = "The CIMUSA Documents are copyright © https://kamestery.com 2019."
 
     # navigation
     [Languages.en.menu]
@@ -120,11 +120,11 @@ whiteColor = "#ffffff"
   languageName = "Fr"
   weight = 1
   languageCode = "fr-fr"
-  title = "Doc List"
+  title = "Akwaba a la Communaute Ivoirienne du Minnesota (CIMUSA)"
   dateFormat = "2 January 2006"
   home = "Aidez-moi"
-  logo = "DOC LIST"
-  copyright = "Les documents Hugo sont sous copyright © gethugothemes 2018."
+  logo = "CIMUSA"
+  copyright = "Les documents CIMUSA sont sous copyright © https://kamestery.com 2019."
 
     # navigation
     [Languages.fr.menu]
