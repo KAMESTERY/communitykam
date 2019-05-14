@@ -37,6 +37,7 @@ collections:
   - label: "Blog in English"
     name: "english_posts"
     folder: "content/blog"
+    filter: {field: "language", value: "en"}
     create: true
     fields:
       - {label: "Language", name: "language", widget: "hidden", default: "en"}
@@ -48,6 +49,7 @@ collections:
   - label: "Blog en Francais"
     name: "posts_francais"
     folder: "content/blog"
+    filter: {field: "language", value: "fr"}
     create: true
     fields:
       - {label: "Langue", name: "language", widget: "hidden", default: "fr"}
@@ -60,6 +62,7 @@ collections:
   - label: "Events"
     name: "english_events"
     folder: "content/events"
+    filter: {field: "language", value: "en"}
     create: true
     fields:
       - {label: "Language", name: "language", widget: "hidden", default: "en"}
@@ -71,6 +74,7 @@ collections:
   - label: "Evènements"
     name: "events_francais"
     folder: "content/events"
+    filter: {field: "language", value: "fr"}
     create: true
     fields:
       - {label: "Langue", name: "language", widget: "hidden", default: "fr"}
@@ -83,6 +87,7 @@ collections:
   - label: "Membership and Contributions"
     name: "english_membershipcontribs"
     folder: "content/membership-contributions"
+    filter: {field: "language", value: "en"}
     create: true
     fields:
       - {label: "Language", name: "language", widget: "hidden", default: "en"}
@@ -94,6 +99,7 @@ collections:
   - label: "Adhésion et Contributions"
     name: "membershipcontribs_francais"
     folder: "content/membership-contributions"
+    filter: {field: "language", value: "fr"}
     create: true
     fields:
       - {label: "Langue", name: "language", widget: "hidden", default: "fr"}

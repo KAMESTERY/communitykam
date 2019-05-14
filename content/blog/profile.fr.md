@@ -1,8 +1,9 @@
 ---
-title: "Understand the different levels of profile"
+title: "Understand the different levels of profile (FR)"
 date: 2018-12-29T11:02:05+06:00
 type: "post"
 author: "Somrat"
+language: fr
 ---
 
 

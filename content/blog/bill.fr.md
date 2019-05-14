@@ -1,8 +1,9 @@
 ---
-title: "How to pay your bill"
+title: "How to pay your bill (FR)"
 date: 2018-12-29T11:02:05+06:00
 type: "post"
 author: "Somrat"
+language: fr
 ---
 
 Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.

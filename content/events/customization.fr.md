@@ -1,8 +1,9 @@
 ---
-title: "Customization"
+title: "Customization (FR)"
 date: 2018-12-29T11:02:05+06:00
 type: "post"
 author: "Somrat"
+language: fr
 ---
 
 **Doc-List** has been built to be as configurable as possible.
