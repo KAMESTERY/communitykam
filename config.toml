@@ -35,6 +35,11 @@ whiteColor = "#ffffff"
         weight = 2
         name = "contact"
         url = "/contact"
+      
+      [[Languages.en.menu.main]]
+          weight = 2
+          name = "blog"
+          URL = "/blog"
         
       [[Languages.en.menu.main]]
         weight = 2
@@ -50,14 +55,14 @@ whiteColor = "#ffffff"
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Installation"
-          URL = "/installation"
+          name = "Events"
+          URL = "/events"
           weight = 2
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Billing and Pricing"
-          URL = "/billing-pricing"
+          name = "Membership and Contributions"
+          URL = "/membership-contributions"
           weight = 3
 
           [[Languages.en.menu.main]]
@@ -138,6 +143,11 @@ whiteColor = "#ffffff"
         weight = 2
         name = "contact"
         url = "/fr/contact"
+      
+      [[Languages.fr.menu.main]]
+          weight = 2
+          name = "blog"
+          URL = "/fr/blog"
 
       [[Languages.fr.menu.main]]
         weight = 2
@@ -153,14 +163,14 @@ whiteColor = "#ffffff"
 
           [[Languages.fr.menu.main]]
           parent = "les sujets"
-          name = "Commencer"
-          URL = "/fr/installation"
+          name = "Evènements"
+          URL = "/fr/events"
           weight = 2
 
           [[Languages.fr.menu.main]]
           parent = "les sujets"
-          name = "Compte et facturation"
-          URL = "/fr/billing-pricing"
+          name = "Adhésion et Contributions"
+          URL = "/fr/membership-contributions"
           weight = 3
 
           [[Languages.fr.menu.main]]

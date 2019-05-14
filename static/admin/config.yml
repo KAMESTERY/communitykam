@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: cimusa # Branch to update (optional; defaults to master)
+logo_url: "/images/Flag_of_Côte_d'Ivoire.svg"
 # This line should *not* be indented
 publish_mode: editorial_workflow
 # These lines should *not* be indented
@@ -32,3 +33,67 @@ collections:
               - {label: ID, name: ID, widget: select, options: ["collapseOne", "collapseTwo", "collapseThree", "collapseFour", "collapseFive", "collapseSix", "collapseSeven", "collapseHeight"]}
               - {label: Title, name: title, widget: string}
               - {label: Content, name: content, widget: string}
+  # Blog Collections
+  - label: "Blog in English"
+    name: "english_posts"
+    folder: "content/blog"
+    fields:
+      - {label: "Language", name: "language", widget: "hidden", default: "en"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - label: "Blog en Francais"
+    name: "posts_francais"
+    folder: "content/blog"
+    fields:
+      - {label: "Langue", name: "language", widget: "hidden", default: "fr"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Auteur", name: "author", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+  # Events
+  - label: "Events"
+    name: "english_events"
+    folder: "content/events"
+    fields:
+      - {label: "Language", name: "language", widget: "hidden", default: "en"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - label: "Evènements"
+    name: "events_francais"
+    folder: "content/events"
+    fields:
+      - {label: "Langue", name: "language", widget: "hidden", default: "fr"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Auteur", name: "author", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+  # Membership Contributions
+  - label: "Membership and Contributions"
+    name: "english_membershipcontribs"
+    folder: "content/membership-contributions"
+    fields:
+      - {label: "Language", name: "language", widget: "hidden", default: "en"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - label: "Adhésion et Contributions"
+    name: "membershipcontribs_francais"
+    folder: "content/membership-contributions"
+    fields:
+      - {label: "Langue", name: "language", widget: "hidden", default: "fr"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Auteur", name: "author", widget: "string"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
