@@ -11,7 +11,6 @@ author: OG
 * sagasfg
 
 
-
 ```
-(let [x 3      y 9] (+ x y))
+puts "Tres Cool!"
 ```
