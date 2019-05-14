@@ -2,7 +2,16 @@
 ---
 title: Verification
 language: en
+title: Verification
+date: 2019-05-14T19:44:36.743Z
+type: post
+author: OG
 ---
+* dfadsg
+* adsgasfg
+* safdgasfg
+* sagasfg
 
-
+```
 puts "Very Cool!"
+```
